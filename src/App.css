@@ -1,0 +1,402 @@
+/* .App {
+  text-align: center;
+}
+
+body {
+  scroll-behavior: smooth;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+#son {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+#zoomed:hover {
+  border: 2px solid green;
+  transform: scale(1.01);
+  transition: .9s;
+}
+
+
+
+.hero h5{
+  margin: 250px auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.box {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  align-items: center;
+  margin: 28px;
+  border-radius: 3rem;
+  width: 50%;
+ 
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinning img {
+
+  height: 120px;
+}
+
+.container {
+  width: 99%;
+}
+
+.card {
+  width: 50%;
+}
+
+.contact {
+  background-color: rgb(212, 231, 248);
+  text-align: center;
+  padding: 10px;
+  margin-top: 216px;
+}
+
+h5 span {
+  font-weight: bold;
+}
+
+
+@media only screen and (min-width: 770px) {
+  .settle:hover{
+    transform: scale(1.05);
+    transition: .6s;
+    border: 1px solid green;
+     }
+    }
+    .settle{
+      width: 265px;
+      margin-bottom: 15px;
+        }
+
+
+@media only screen and (max-width: 760px) {
+  #center3 {
+    margin-left:25%;
+  }
+  .settle{
+    width: 230px;
+  
+  }
+ 
+    
+}
+
+
+ 
+@media only screen and (max-width: 555px) {
+  #center3 {
+    margin-left:25%;
+  }
+    
+  .settle{
+    width: 230px;
+  
+  }
+}
+@media only screen and (max-width: 460px) {
+  #center3 {
+    margin-left:0%;
+    display: flex;
+    justify-content: center;
+  }
+  .settle{
+    width: 230px;
+  
+  }
+}
+@media only screen and (max-width: 400px) {
+  #center2 {
+    margin-left:18%;
+  }
+  .settle{
+    width: 230px;
+  
+  }
+}
+
+
+
+.inputfield{
+display: flex;
+justify-content: center;
+text-align: left;
+padding: 10px;
+height: 8rem;
+} */
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+body {
+  scroll-behavior: smooth;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+#son {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+#zoomed:hover {
+  border: 2px solid rgb(131, 131, 207);
+  transform: scale(1.01);
+  transition: .9s;
+}
+
+
+
+.hero h5{
+  margin: 250px auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.box {
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  align-items: center;
+  margin: 28px;
+  border-radius: 3rem;
+  width: 30%;
+  
+  }
+
+/* .inputfield {
+  align-items: center;
+  margin: 28px;
+  border-radius: 3rem;
+  width: 30%;
+  
+ 
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinning img {
+
+  height: 120px;
+}
+
+.container {
+  width: 99%;
+  background-color: rgb(28, 33, 39);
+}
+
+.card {
+  width: 50%;
+}
+
+.contact {
+  background-color: rgb(34, 37, 44);
+  text-align: center;
+  padding: 10px;
+  margin-top: 216px;
+}
+
+h5 span {
+  font-weight: bold;
+}
+
+
+@media only screen and (min-width: 770px) {
+  .settle:hover{
+    transform: scale(1.05);
+    transition: .6s;
+    border: 1px solid green;
+     }
+    }
+    .settle{
+      width: 265px;
+      margin-bottom: 15px;
+        }
+
+
+@media only screen and (max-width: 760px) {
+  #center3 {
+    margin-left:25%;
+  }
+  .settle{
+    width: 230px;
+    
+  }
+ 
+    
+}
+
+
+ 
+@media only screen and (max-width: 555px) {
+  #center3 {
+    margin-left:25%;
+  }
+    
+  .settle{
+    width: 200px;
+    border-radius: 2px;
+
+  }
+}
+@media only screen and (max-width: 460px) {
+  #center3 {
+    margin-left:0%;
+    display: flex;
+    justify-content: center;
+  }
+  .settle{
+    width: 230px;
+  
+  }
+}
+@media only screen and (max-width: 400px) {
+  #center2 {
+    margin-left:18%;
+    border-radius: 2px;
+  }
+  .settle{
+    width: 230px;
+  
+  }
+}
+
+.inputfield{
+display: flex;
+justify-content: center;
+text-align: left;
+padding: 10px;
+height: 8rem;
+
+}
+
+.Logins{
+
+  margin-top: 2%;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  width: fit-content;
+  
+ 
+}
+
+
+
+.reg input{
+  width: 80%;
+  padding: 1px;
+
+}
+
+
+input {
+  align-items: center;
+  margin: 18px;
+  border-radius: 3rem;
+  width: 30%;
+  padding: 10px;
+  
+  }
+
+  .h{
+    display: flex;
+    justify-content: center;
+  }
